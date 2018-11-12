@@ -6,3 +6,4 @@ project (hard-sphere-mc)
 add_compile_options(-Wall -Wextra -Wpedantic)
 
 add_executable(hsmc.out src/main.cpp src/data_structures.cpp src/helpers.cpp src/mc_moves.cpp)
+add_executable(rdf_pp.out post-process/rdf/rdf_pp.cpp)
